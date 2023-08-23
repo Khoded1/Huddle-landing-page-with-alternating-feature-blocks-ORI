@@ -1,0 +1,107 @@
+@media screen and (max-width: 450px) {
+	body {
+		font-size: 15px;
+	}
+	.huddle-landing__section-1 {
+		background-image: url(../images/bg-hero-mobile.svg);
+		background-repeat: no-repeat;
+		background-color: hsl(193, 100%, 96%);
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.huddle-landing__nav {
+		gap: 8rem;
+	}
+	.huddle-landing__logo {
+		width: 35%;
+	}
+	.huddle-landing__try-it-free {
+		width: 100%;
+		font-size: 18px;
+		font-weight: 700;
+		padding: 0.41rem 1rem;
+		text-align: center;
+	}
+	.huddle-landing__details {
+		display: flex;
+		flex-direction: column;
+		gap: 2.5rem;
+	}
+	.huddle-landing__details div {
+		margin-bottom: 2rem;
+		text-align: center;
+	}
+	.huddle-landing__header {
+		font-size: 2rem;
+	}
+	.huddle-landing__paragraph {
+		font-size: 25px;
+	}
+	.hugddle-landing__sign-up {
+		font-size: 15px;
+		font-weight: 600;
+	}
+	.huddle-landing__section-2 {
+		padding-left: 1rem;
+		padding-right: 1rem;
+	}
+	.huddle-landing__content {
+		grid-template-columns: 1fr;
+		padding: 1rem 1rem;
+		text-align: center;
+	}
+	.huddle-landing__headlines {
+		font-size: 1.5rem;
+	}
+	.huddle-landing__description {
+		font-size: 22px;
+	}
+	.huddle-landing__image-container {
+		grid-row: 1;
+	}
+	.huddle-landing__grow-together-image {
+		margin-bottom: 2rem;
+		margin-top: 2rem;
+		width: 70%;
+	}
+	.huddle-landing__cta-container {
+		padding: 1rem 2rem;
+		width: 100%;
+		margin-left: auto;
+		margin-right: 1rem;
+	}
+	.huddle-landing__cta-headline {
+		font-size: 18px;
+	}
+	.cta-link {
+		font-size: 15px;
+		padding: 1rem 2rem;
+	}
+	.huddle-landing__footer {
+		margin-top: -6rem;
+		padding: 6 0rem;
+	}
+	.huddle-landing__footer-contents {
+		flex-direction: column;
+		padding: 0;
+	}
+	.huddle-landing__footer-icons {
+		width: 15px;
+	}
+	.huddle-landing__footer-address {
+		font-size: 15px;
+		line-height: 1.5;
+	}
+	.huddle-landing__footermedia-container div {
+		justify-content: center;
+		align-items: center;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+	}
+	.huddle-landing__copyright {
+		justify-content: center;
+		align-items: center;
+		font-size: 12px;
+		margin-bottom: 2rem;
+	}
+}

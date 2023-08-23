@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	position: relative;
+}
+/* *****************
+SECTION 1
+****************** */
+.huddle-landing__section-1 {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	background-image: url(../images/bg-hero-desktop.svg);
+	background-repeat: no-repeat;
+	background-color: hsl(193, 100%, 96%);
+	background-size: cover;
+	padding: 2rem 4.2rem;
+}
+.huddle-landing__nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 6.4rem;
+}
+.huddle-landing__logo {
+	width: 30%;
+}
+.huddle-landing__try-it-free {
+	text-decoration: none;
+	color: #333;
+	padding: 0.61rem 3.5rem;
+	background-color: #fff;
+	border-radius: 50px;
+	box-shadow: 0px 1px 10px 2px #e9e8e8ea;
+	transition: all 0.3s;
+}
+.huddle-landing__details {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: center;
+	align-items: center;
+}
+.huddle-landing__header {
+	font-size: 2rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin-bottom: 2rem;
+}
+.huddle-landing__paragraph {
+	font-weight: 400;
+	line-height: 1.5;
+	margin-bottom: 2rem;
+}
+.hugddle-landing__sign-up {
+	text-decoration: none;
+	color: #fff;
+	background-color: hsl(322, 100%, 66%);
+	padding: 0.81rem 3.5rem;
+	font-size: 13px;
+	border-radius: 2rem;
+	font-weight: 700;
+}
+.hugddle-landing__sign-up:hover {
+	background-color: rgb(254, 160, 220);
+}
+.huddle-landing__image {
+	width: 100%;
+}
+/* *****************
+SECTION 2
+****************** */
+.huddle-landing__section-2 {
+	padding: 2rem 4.2rem;
+	margin-top: 5rem;
+}
+.huddle-landing__content {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2rem 5rem;
+	border-radius: 15px;
+	background-color: #fff;
+	margin-bottom: 2rem;
+	box-shadow: 0px 1px 10px 2px #efececf2;
+}
+.huddle-landing__headlines {
+	font-weight: 700;
+	margin-bottom: 1rem;
+}
+.huddle-landing__description {
+	color: hsl(208, 11%, 55%);
+	line-height: 1.4;
+}
+.huddle-landing__image-container a {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.huddle-landing__grow-together-image {
+	width: 75%;
+}
+/* *****************
+CTA
+****************** */
+.huddle-landing__cta-container {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	justify-content: center;
+	align-items: center;
+	padding: 2rem 4.2rem;
+	margin-left: 25%;
+	margin-right: 25%;
+	border-radius: 12px;
+	margin-top: 4.2rem;
+	box-shadow: 0px 1px 10px 2px #efececf2;
+}
+.huddle-landing__cta-headline {
+	margin-bottom: 1.5rem;
+	color: #333;
+}
+.cta-link {
+	box-shadow: 0px 1px 10px 2px #b9b7b7f2;
+}
+/* *****************
+FOOTER
+****************** */
+.huddle-landing__footer {
+	background: hsl(192, 100%, 9%);
+	padding: 6rem 3rem 0 3rem;
+	color: #fff;
+	font-size: 15px;
+	margin-top: -7rem;
+}
+.huddle-landing__footerlogo {
+	fill: #fff;
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+.huddle-landing__footer-contents {
+	display: flex;
+	justify-content: space-between;
+}
+.huddle-landing__footer-contents span {
+	display: flex;
+	gap: 1rem;
+	align-items: center;
+	margin-bottom: 1.5rem;
+}
+.huddle-landing__footer-icons {
+	width: 1.5rem;
+}
+.huddle-landing__footerlink:hover {
+	color: hsl(322, 100%, 66%);
+	border-color: hsl(322, 100%, 66%);
+	transition: all ease-in 0.3s;
+}
+.huddle-landing__footer-address {
+	line-height: 1.2;
+}
+.huddle-landing__footer-about,
+.huddle-landing__footer-contact {
+	display: flex;
+	flex-direction: column;
+	line-height: 2.5;
+}
+.huddle-landing__footer-link {
+	color: #fff;
+	text-decoration: none;
+}
+.huddle-landing__footer-link:hover {
+	text-decoration: underline;
+}
+.huddle-landing__footermedia-container div {
+	display: flex;
+	gap: 1rem;
+}
+.huddle-landing__footermedia {
+	display: flex;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #fff;
+	border: 1px solid #fff;
+	padding: 0.61rem;
+	border-radius: 100%;
+}
+.huddle-landing__copyright {
+	font-size: 10px;
+	display: flex;
+	justify-content: flex-end;
+}
